@@ -1,0 +1,120 @@
+/*后台登录背景图片*/
+
+.tx-login {
+    background: url(https://images.weserv.nl/?url=https://i0.hdslb.com/bfs/article/544d46b60209f0d56546aba39dbbcd5352264e23.jpg) no-repeat center center;
+    height: 100%;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+/*字体*/
+div, h1, h2, h3, h4, h5, p, form, ul, ol, label, input, textarea, img, span, dl, dt, dd {
+    margin: 0;
+    padding: 0;
+}
+
+/*登录框位置*/
+
+.tx-login-box {
+    position: absolute;
+    right: 50%;  /*右边缘*/
+    margin-right: -250px;  /*右外边距*/
+    top: 20%;   /*上边缘*/
+    width: 500px;  /*登录框宽度*/
+    background-color: rgba(255,255,255,.8);  /*登录框背景颜色*/
+    padding: 30px;  /*内边距*/
+    border-radius: 5px; /*圆角边框*/
+}
+
+/*文字下外边距*/
+
+.mb20 {
+    margin-bottom: 20px;
+}
+
+/*文本对齐方式*/
+.text-center {
+    text-align: center;
+}
+
+.hui, .hui a {
+    color: #7e7e7e;
+    font-weight: 400;
+}
+
+/*用户名输入框*/
+.tx-xian {
+    border: 1px solid #ddd;
+    margin-bottom: 10px; /*下外边距*/
+    position: relative;  /*定位*/
+    border-radius: 3px;
+    height: 39px;
+    padding: 1px;
+}
+
+.tx-input1 {
+    line-height: 35px;
+    height: 35px;
+    border: 0;
+    padding: 0 10px;
+    width: 100%;
+    background-color: #ececec; /*背景颜色*/
+}
+
+/*验证码框内边距*/
+.tx-verifycode1 {
+    padding: 1px 110px 1px 1px;
+}
+
+.tx-verifycode1 img {
+    width: 100px;
+    height: 35px;
+    position: absolute;
+    right: 2px;
+    top: 1px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+    border: 0;
+}
+
+/*登录按钮*/
+
+.tx-button {
+    line-height: 40px;
+    height: 40px;
+    color: #fff;
+    background-color: #0ebaa6;
+    width: 100%;
+    border: 0;
+    border-radius: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
