@@ -96,6 +96,20 @@ img {
 }
 
 
+/*手机模式自适应*/
+
+@media screen and (max-width: 760px)
+.tx-login-box {
+    width: 96%; /*登录框宽度*/
+    margin: 0 2%; /*外边距*/
+    top: 20%;     
+    right: 0;
+}
+
+@media screen and (max-width: 768px)
+.mb20, .pro li {
+    margin-bottom: 10px;
+}
 
 
 
